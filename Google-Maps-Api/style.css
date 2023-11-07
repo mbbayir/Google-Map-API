@@ -1,0 +1,27 @@
+/* 
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map. 
+ */
+ #map {
+  width: 80%;
+  height: 400px;
+  margin: 10px auto;
+}
+
+/* 
+ * Optional: Makes the sample page fill the window. 
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  color: #5bc0de;
+  font-family: "Poppins", sans-serif;
+}
+
+.jumbotron h1{
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
